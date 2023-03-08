@@ -24,7 +24,7 @@ describe('logShout(string)', function() {
     console.log.restore();
   })
 })
-
+  
 describe('logWhisper(string)', function() {
   it('takes a string argument and logs it in all lowercase using console.log()', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough();
@@ -51,4 +51,5 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
       "I would love to!"
     );
   });
-})
+});
+
